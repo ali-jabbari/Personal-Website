@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .ltr {
+        direction: ltr;
+    }
+
+    .rtl {
+        direction: rtl;
+    }
+}
+
+@font-face {
+    font-family: 'iransans';
+    src: url('../../public/font/iransans.ttf'); /* Pretty Modern Browsers */
+
+    /*src: url('../asset/iransans/iransans.eot'); !* IE9 Compat Modes *!*/
+    /*src: url('../asset/iransans/iransans.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!*/
+    /*url('../asset/iransans/iransans.woff2') format('woff2'), !* Super Modern Browsers *!*/
+    /*url('../asset/iransans/iransans.woff') format('woff'), !* Pretty Modern Browsers *!*/
+    /*url('../asset/iransans/iransans.ttf')  format('truetype'), !* Safari, Android, iOS *!*/
+    /*url('../asset/iransans/iransans.svg#svgFontName') format('svg'); !* Legacy iOS *!*/
+}
+
+@font-face {
+    font-family: 'iransans_medium';
+    src: url('../../public/font/iransans_medium.ttf');
+}
+
+
+*{
+    scroll-behavior: smooth;
+    @apply transition-all duration-200
+
+}
+
+html{
+    direction: rtl;
+    scroll-behavior: smooth;
+}
+
+body{
+
+    @apply font-iranSans bg-background
+}
+
