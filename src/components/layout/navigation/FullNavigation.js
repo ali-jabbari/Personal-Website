@@ -62,7 +62,7 @@ const FullNavigation = () => {
 
     //Styles
     const className = {
-        wrapper: `bg-white fixed top-0 bottom-0 right-0 left-0 z-30`,
+        wrapper: `bg-white fixed top-0 bottom-0 right-0 left-0 z-50`,
         closeButton: `w-full text-start mt-10 mr-10`,
         listContainer: `flex flex-col justify-center items-center gap-10 text-zinc-400`,
         link: `text-zinc-500 cursor-pointer`,

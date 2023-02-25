@@ -22,7 +22,7 @@ const Navigation = () => {
     }
 
     return (
-        <nav className="bg-white shadow-lg lg:hidden sticky top-0 z-30">
+        <nav className="bg-white shadow-lg lg:hidden sticky top-0 z-10">
 
             {/*Full Navigation*/}
             {isSideOpen ? (
