@@ -8,9 +8,9 @@ const TableItem = (props) => {
     }
 
     return (
-        <div className={`${colors[props.color]} w-full flex justify-between p-5`}>
+        <div className={`${colors[props.color]} w-full flex justify-between p-5 ${props.className}`}>
             <h4 className="text-sm font-iranSansMedium">{props.title}</h4>
-            <h4 className="text-zinc-500">{props.value}</h4>
+            <h4 className="text-zinc-500 text-end">{props.value}</h4>
         </div>
     )
 }

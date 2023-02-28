@@ -17,9 +17,10 @@ import Button from "@/components/ui/Button"
 const ModalOverlay = (props) => {
     const content = (
         <div
-            className="fixed top-[5%] left-[5%] right-[5%] bottom-[5%] z-50 bg-white p-5
-            overflow-scroll shadow-2xl
-            ">
+            className="fixed top-[0%] left-[0%] right-[0%] bottom-[0%]
+             lg:top-[5%] lg:left-[5%] lg:right-[5%] lg:bottom-[5%]
+             z-50 bg-white p-5
+            overflow-scroll shadow-2xl">
 
             {/*Close Button*/}
             <button
